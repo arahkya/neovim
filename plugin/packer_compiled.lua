@@ -74,6 +74,16 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ale = {
+    loaded = true,
+    path = "/home/arahk/.local/share/nvim/site/pack/packer/start/ale",
+    url = "https://github.com/dense-analysis/ale"
+  },
+  ["coc.nvim"] = {
+    loaded = true,
+    path = "/home/arahk/.local/share/nvim/site/pack/packer/start/coc.nvim",
+    url = "https://github.com/neoclide/coc.nvim"
+  },
   dracula = {
     loaded = true,
     path = "/home/arahk/.local/share/nvim/site/pack/packer/start/dracula",
@@ -84,10 +94,25 @@ _G.packer_plugins = {
     path = "/home/arahk/.local/share/nvim/site/pack/packer/start/nerdtree",
     url = "https://github.com/scrooloose/nerdtree"
   },
+  ["omnisharp-vim"] = {
+    loaded = true,
+    path = "/home/arahk/.local/share/nvim/site/pack/packer/start/omnisharp-vim",
+    url = "https://github.com/OmniSharp/omnisharp-vim"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/arahk/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
+  },
+  ["vim-airline"] = {
+    loaded = true,
+    path = "/home/arahk/.local/share/nvim/site/pack/packer/start/vim-airline",
+    url = "https://github.com/vim-airline/vim-airline"
+  },
+  ["vim-razor"] = {
+    loaded = true,
+    path = "/home/arahk/.local/share/nvim/site/pack/packer/start/vim-razor",
+    url = "https://github.com/jlcrochet/vim-razor"
   }
 }
 

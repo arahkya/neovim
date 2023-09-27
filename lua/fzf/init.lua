@@ -1,1 +1,1 @@
-vim.keymap.set("n", "<c-f>", ":FZF<cr>")
+vim.keymap.set("n", "<c-p>", ":FZF<cr>")
